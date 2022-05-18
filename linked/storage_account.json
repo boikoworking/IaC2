@@ -1,124 +1,34 @@
 {
-    "type": "Microsoft.Storage/storageAccounts",
-    "apiVersion": "2021-06-01",
-    "name": "string",
-    "location": "string",
-    "tags": {
-      "tagName1": "tagValue1",
-      "tagName2": "tagValue2"
-    },
-    "sku": {
-      "name": "Standard LRS"
-    },
-    "kind": "StorageV2",
-    "extendedLocation": {
-      "name": "string",
-      "type": "EdgeZone"
-    },
-    "identity": {
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.6.18.56646",
+      "templateHash": "4523590120167697900"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2021-06-01",
+      "name": "[parameters('storageAccountName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "[parameters('storageAccountType')]"
+      },
+      "kind": "StorageV2",
+      "properties": {}
+    }
+  ],
+  "outputs": {
+    "storageAccountName": {
       "type": "string",
-      "userAssignedIdentities": {}
+      "value": "[parameters('storageAccountName')]"
     },
-    "properties": {
-      "accessTier": "string",
-      "allowBlobPublicAccess": "bool",
-      "allowCrossTenantReplication": "bool",
-      "allowSharedKeyAccess": "bool",
-      "azureFilesIdentityBasedAuthentication": {
-        "activeDirectoryProperties": {
-          "azureStorageSid": "string",
-          "domainGuid": "string",
-          "domainName": "string",
-          "domainSid": "string",
-          "forestName": "string",
-          "netBiosDomainName": "string"
-        },
-        "defaultSharePermission": "string",
-        "directoryServiceOptions": "string"
-      },
-      "customDomain": {
-        "name": "string",
-        "useSubDomainName": "bool"
-      },
-      "defaultToOAuthAuthentication": "bool",
-      "encryption": {
-        "identity": {
-          "userAssignedIdentity": "string"
-        },
-        "keySource": "string",
-        "keyvaultproperties": {
-          "keyname": "string",
-          "keyvaulturi": "string",
-          "keyversion": "string"
-        },
-        "requireInfrastructureEncryption": "bool",
-        "services": {
-          "blob": {
-            "enabled": "bool",
-            "keyType": "string"
-          },
-          "file": {
-            "enabled": "bool",
-            "keyType": "string"
-          },
-          "queue": {
-            "enabled": "bool",
-            "keyType": "string"
-          },
-          "table": {
-            "enabled": "bool",
-            "keyType": "string"
-          }
-        }
-      },
-      "immutableStorageWithVersioning": {
-        "enabled": "bool",
-        "immutabilityPolicy": {
-          "allowProtectedAppendWrites": "bool",
-          "immutabilityPeriodSinceCreationInDays": "int",
-          "state": "string"
-        }
-      },
-      "isHnsEnabled": "bool",
-      "isNfsV3Enabled": "bool",
-      "keyPolicy": {
-        "keyExpirationPeriodInDays": "int"
-      },
-      "largeFileSharesState": "string",
-      "minimumTlsVersion": "string",
-      "networkAcls": {
-        "bypass": "string",
-        "defaultAction": "string",
-        "ipRules": [
-          {
-            "action": "Allow",
-            "value": "string"
-          }
-        ],
-        "resourceAccessRules": [
-          {
-            "resourceId": "string",
-            "tenantId": "string"
-          }
-        ],
-        "virtualNetworkRules": [
-          {
-            "action": "Allow",
-            "id": "string",
-            "state": "string"
-          }
-        ]
-      },
-      "publicNetworkAccess": "string",
-      "routingPreference": {
-        "publishInternetEndpoints": "bool",
-        "publishMicrosoftEndpoints": "bool",
-        "routingChoice": "string"
-      },
-      "sasPolicy": {
-        "expirationAction": "Log",
-        "sasExpirationPeriod": "string"
-      },
-      "supportsHttpsTrafficOnly": "bool"
+    "storageAccountId": {
+      "type": "string",
+      "value": "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
     }
   }
+}
