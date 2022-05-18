@@ -11,7 +11,7 @@
         "properties": {
           "mode": "Incremental",
           "templateLink": {
-            "uri":"https://mystorageaccount.blob.core.windows.net/AzureTemplates/newStorageAccount.json",
+            "uri":"https://raw.githubusercontent.com/boikoworking/IaC1/main/linked/storage_account.json?token=GHSAT0AAAAAABUWQU6MGYZ5TXCNC7AU4BIWYUFC2SA",
             "contentVersion":"1.0.0.0"
           }
 
@@ -25,7 +25,7 @@
         "properties": {
           "mode": "Incremental",
           "templateLink": {
-            "uri":"https://mystorageaccount.blob.core.windows.net/AzureTemplates/newStorageAccount.json",
+            "uri":"https://raw.githubusercontent.com/boikoworking/IaC1/main/linked/virtual_network.json?token=GHSAT0AAAAAABUWQU6NR7K2SKSFBTAU7Q4EYUFC27Q",
             "contentVersion":"1.0.0.0"
           }
         }
