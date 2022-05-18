@@ -17,18 +17,6 @@
 
 
         }
-      },
-      {
-        "type": "Microsoft.Resources/deployments",
-        "apiVersion": "2021-04-01",
-        "name": "linkedTemplate_virtual_network",
-        "properties": {
-          "mode": "Incremental",
-          "templateLink": {
-            "uri":"https://raw.githubusercontent.com/boikoworking/IaC1/main/linked/virtual_network.json",
-            "contentVersion":"1.0.0.0"
-          }
-        }
       }
     ],
     "outputs": {
