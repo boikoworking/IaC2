@@ -2,6 +2,18 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+    "storagePrefix": {
+    "type": "string"
+    },
+    "storageSKU": {
+      "type": "string"
+    },
+    "resourceTags": {
+      "type": "object"
+    },
+    "storagekind": {
+          "type": "string"
+      },
     "vnetName": {
       "type": "string"
     },
@@ -26,11 +38,7 @@
       "metadata": {
         "description": "Location for all resources."
       }
-    },
-
-    "resourceTags": {
-      "type": "object"
-  }
+    }
   },
   "variables": {
     "uniqueVnetname": "[concat(resourceGroup().name,parameters('vnetName'),uniqueString(resourceGroup().id))]"
