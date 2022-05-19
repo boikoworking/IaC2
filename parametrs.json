@@ -21,7 +21,7 @@
           "value": "Backend"
       },
       "location": {
-          "value": "[resourceGroup().location]"
+          "value": null
       },
       "storagePrefix": {
           "value": "Devenv"
