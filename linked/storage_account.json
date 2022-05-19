@@ -78,7 +78,7 @@
       }
     },
     "storagekind": {
-          "defaultvalue": "",
+          "defaultvalue": "Storage",
           "type": "string"
       }
   },

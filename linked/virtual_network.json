@@ -73,7 +73,7 @@
       }
     },
     "storagekind": {
-          "defaultvalue": "abc",
+          "defaultvalue": "Storage",
           "type": "string"
       },
        "storagePrefix": {
