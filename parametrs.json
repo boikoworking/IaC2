@@ -20,9 +20,6 @@
       "subnet2Name": {
           "value": "Backend"
       },
-      "location": {
-          "value": null
-      },
       "storagePrefix": {
           "value": "Devenv"
       },
