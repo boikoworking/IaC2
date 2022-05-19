@@ -21,7 +21,7 @@
           "value": "Backend"
       },
       "location": {
-          "value": "[resourceGroup().location]" // TODO: Fill in parameter value
+          "value": "[resourceGroup().location]"
       },
       "storagePrefix": {
           "value": "Devenv"
