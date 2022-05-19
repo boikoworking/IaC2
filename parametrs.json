@@ -21,7 +21,7 @@
           "value": "Backend"
       },
       "storagePrefix": {
-          "value": "devenv"
+          "value": "deven"
       },
       "storageSKU": {
           "value": "Standard_LRS"
