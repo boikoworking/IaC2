@@ -6,7 +6,7 @@
           "value": "VVnet"
       },
       "vnetAddressPrefix": {
-          "value": "12.0.0.0/16"
+          "value": "12.0.0.0/8"
       },
       "subnet1Prefix": {
           "value": "12.0.1.0/30"
