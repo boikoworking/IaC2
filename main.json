@@ -89,7 +89,7 @@
           {
         "type": "Microsoft.Resources/deployments",
         "apiVersion": "2021-04-01",
-        "name": "linkedTemplate_storage_account",
+        "name": "linkedTemplate",
         "properties": {
           "mode": "Incremental",
           "templateLink": {
@@ -101,7 +101,7 @@
            {
         "type": "Microsoft.Resources/deployments",
         "apiVersion": "2021-04-01",
-        "name": "linkedTemplate_virtual_network",
+        "name": "linkedTemplatett",
         "properties": {
           "mode": "Incremental",
           "templateLink": {
