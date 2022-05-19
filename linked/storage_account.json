@@ -10,33 +10,15 @@
       }
     },
     "storagePrefix": {
-      "defaultValue": "abc",
-      "type": "string",
-      "maxLength": 11
+      "type": "string"
     },
     "storageSKU": {
-      "type": "string",
-      "defaultValue": "Standard_LRS",
-      "allowedValues": [
-        "Standard_LRS",
-        "Standard_GRS",
-        "Standard_RAGRS",
-        "Standard_ZRS",
-        "Premium_LRS",
-        "Premium_ZRS",
-        "Standard_GZRS",
-        "Standard_RAGZRS"
-      ]
+      "type": "string"
     },
     "resourceTags": {
-      "type": "object",
-      "defaultValue": {
-        "Environment": "Dev",
-        "Project": "Tutorial"
-      }
+      "type": "object"
     },
     "storagekind": {
-          "defaultvalue": "Storage",
           "type": "string"
       }
   },
