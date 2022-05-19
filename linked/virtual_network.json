@@ -51,35 +51,13 @@
         "description": "Location for all resources."
       }
     },
-    "storageSKU": {
-      "type": "string",
-      "defaultValue": "Standard_LRS",
-      "allowedValues": [
-        "Standard_LRS",
-        "Standard_GRS",
-        "Standard_RAGRS",
-        "Standard_ZRS",
-        "Premium_LRS",
-        "Premium_ZRS",
-        "Standard_GZRS",
-        "Standard_RAGZRS"
-      ]
-    },
+
     "resourceTags": {
       "type": "object",
       "defaultValue": {
         "Environment": "Dev",
         "Project": "Tutorial"
       }
-    },
-    "storagekind": {
-          "defaultvalue": "Storage",
-          "type": "string"
-      },
-       "storagePrefix": {
-       "defaultValue": "abc",
-       "type": "string",
-       "maxLength": 11
     }
   },
   "variables": {
