@@ -77,9 +77,10 @@
           "type": "string"
       },
        "storagePrefix": {
-      "type": "string",
-      "minLength": 3,
-      "maxLength": 11
+       "defaultValue": " ",
+       "type": "string",
+       "minLength": 3,
+       "maxLength": 11
     }
   },
   "variables": {
