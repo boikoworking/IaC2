@@ -33,7 +33,7 @@
       }
     },
     "storagekind": {
-          "defaultvalue": "",
+          "defaultvalue": "abc",
           "type": "string"
       },
       "vnetName": {
