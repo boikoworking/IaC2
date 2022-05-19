@@ -16,6 +16,27 @@
       },
       "storagekind": {
           "value": "StorageV2"
+      },
+      "vnetName": {
+        "value": "Vnet5"
+        },
+      "vnetAddressPrefix": {
+        "value": "10.0.0.12"       
+      },
+      "subnet1Prefix": {
+        "value": "10.1.0.0/25"
+      },
+      "subnet1Name": {
+        "value": "Front-end-Subnet"
+      },
+      "subnet2Prefix": {
+        "value": "10.2.0.0/25"
+      },
+      "subnet2Name": {
+       "value": "Back-end-Subnet"
+      },
+      "location": {
+        "value": "[resourceGroup().location]"
       }
     }
-  }
+}
