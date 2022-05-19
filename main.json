@@ -3,19 +3,24 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "storagePrefix": {
-         "type": "string"
+         "type": "string",
+         "defaultValue":""
       },
       "storageSKU": {
-         "type": "string"
+         "type": "string",
+          "defaultValue":""
       },
       "appServicePlanName": {
-         "type": "string"
+         "type": "string",
+         "defaultValue": ""
       },
       "webAppName": {
-         "type": "string"
+         "type": "string",
+         "defaultValue": ""
       },
       "resourceTags": {
-         "type": "object"
+         "type": "object",
+         "defaultValue": {}
       }
     },
     "resources": [
