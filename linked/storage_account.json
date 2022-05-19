@@ -50,7 +50,7 @@
       "sku": {
         "name": "[parameters('storageSKU')]"
       },
-      "kind": "StorageV2",
+      "kind": "[parameters('storagekind')]",
       "properties": {
         "supportsHttpsTrafficOnly": true
       }
