@@ -8,17 +8,14 @@
       "storageSKU": {
         "value": "Standard_LRS"
       },
-      "appServicePlanName": {
-        "value": "devplan"
-      },
-      "webAppName": {
-        "value": "devapp"
-      },
       "resourceTags": {
         "value": {
           "Environment": "Dev",
           "Project": "Tutorial"
         }
+      },
+      "storagekind": {
+          "value": "StorageV2"
       }
     }
   }
