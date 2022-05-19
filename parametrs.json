@@ -15,7 +15,7 @@
           "value": "sub1"
       },
       "subnet2Prefix": {
-          "value": "192.1.0.0/30"
+          "value": "192.1.0.0/16"
       },
       "subnet2Name": {
           "value": "sub2"
