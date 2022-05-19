@@ -52,6 +52,7 @@
       }
     },
     "storagePrefix": {
+      "defaultValue": "",
       "type": "string",
       "minLength": 3,
       "maxLength": 11
