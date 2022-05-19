@@ -22,16 +22,15 @@
       ]
     },
     "appServicePlanName": {
-      "type": "string",
-      "defaultValue": "exampleplan"
+      "type": "string"
     },
     "webAppName": {
       "type": "string",
-      "metadata": {
-        "description": "Base name of the resource such as web app name and app service plan "
-      },
       "minLength": 2
-    }
+    },
+    "resourceTags": {
+      "type": "object"
+      }
     },
     "resources": [
       {
