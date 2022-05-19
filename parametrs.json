@@ -1,42 +1,42 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "vnetName": {
+          "value": "VVnet1"
+      },
+      "vnetAddressPrefix": {
+          "value": "10.0.0.0/15"
+      },
+      "subnet1Prefix": {
+          "value": "10.1.0.0/24"
+      },
+      "subnet1Name": {
+          "value": "Frontend"
+      },
+      "subnet2Prefix": {
+          "value": "10.2.0.0/24"
+      },
+      "subnet2Name": {
+          "value": "Backend"
+      },
+      "location": {
+          "value": "[resourceGroup().location]" // TODO: Fill in parameter value
+      },
       "storagePrefix": {
-        "value": "devstore"
+          "value": "Devenv"
       },
       "storageSKU": {
-        "value": "Standard_LRS"
+          "value": "Standard_LRS"
       },
       "resourceTags": {
-        "value": {
-          "Environment": "Dev",
-          "Project": "Tutorial"
-        }
+          "value": {
+            "Environment": "Dev",
+            "Project": "Tutorial"
+          }
       },
       "storagekind": {
           "value": "StorageV2"
-      },
-      "vnetName": {
-        "value": "Vnet5"
-        },
-      "vnetAddressPrefix": {
-        "value": "10.0.0.0/12"       
-      },
-      "subnet1Prefix": {
-        "value": "10.1.0.0/25"
-      },
-      "subnet1Name": {
-        "value": "Front-end-Subnet"
-      },
-      "subnet2Prefix": {
-        "value": "10.2.0.0/25"
-      },
-      "subnet2Name": {
-       "value": "Back-end-Subnet"
-      },
-      "location": {
-        "value": "[resourceGroup().location]"
       }
-    }
+  }
 }
