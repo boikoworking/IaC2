@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
     "storagePrefix": {
-      "defaultValue":"a",
+      "defaultValue":"abc",
       "type": "string",
       "minLength": 3,
       "maxLength": 11
