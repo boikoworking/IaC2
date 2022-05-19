@@ -43,7 +43,8 @@
         "description": "VNet name"
       }
     },
-    "vnetAddressPrefix": {
+    "vnetAddressPrefix": 
+    {
       "type": "string",
       "defaultValue": "10.0.0.0/16",
       "metadata": {
