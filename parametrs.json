@@ -13,12 +13,6 @@
       },
       "webAppName": {
         "value": "devapp"
-      },
-      "resourceTags": {
-        "value": {
-          "Environment": "Dev",
-          "Project": "Tutorial"
-        }
       }
     }
   }

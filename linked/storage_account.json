@@ -42,13 +42,6 @@
       "metadata": {
         "description": "The Runtime stack of current web app"
       }
-    },
-    "resourceTags": {
-      "type": "object",
-      "defaultValue": {
-        "Environment": "Dev",
-        "Project": "Tutorial"
-      }
     }
   },
   "variables": {

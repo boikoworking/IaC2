@@ -27,10 +27,7 @@
     "webAppName": {
       "type": "string",
       "minLength": 2
-    },
-    "resourceTags": {
-      "type": "object"
-      }
+    }
     },
     "resources": [
       {
