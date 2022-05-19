@@ -1,28 +1,6 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {
-      "storagePrefix": {
-         "type": "string",
-         "defaultValue":""
-      },
-      "storageSKU": {
-         "type": "string",
-          "defaultValue":""
-      },
-      "appServicePlanName": {
-         "type": "string",
-         "defaultValue": ""
-      },
-      "webAppName": {
-         "type": "string",
-         "defaultValue": ""
-      },
-      "resourceTags": {
-         "type": "object",
-         "defaultValue": {}
-      }
-    },
     "resources": [
           {
         "type": "Microsoft.Resources/deployments",
