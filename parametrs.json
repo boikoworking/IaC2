@@ -6,16 +6,16 @@
           "value": "VVnet1"
       },
       "vnetAddressPrefix": {
-          "value": "10.0.0.0/24"
+          "value": "12.0.0.0/24"
       },
       "subnet1Prefix": {
-          "value": "10.0.1.0/24"
+          "value": "12.0.1.0/24"
       },
       "subnet1Name": {
           "value": "sub1"
       },
       "subnet2Prefix": {
-          "value": "10.0.2.0/24"
+          "value": "12.0.2.0/24"
       },
       "subnet2Name": {
           "value": "sub2"
