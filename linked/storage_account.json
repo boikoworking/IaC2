@@ -54,7 +54,6 @@
     "storagePrefix": {
       "defaultValue": "abc",
       "type": "string",
-      "minLength": 3,
       "maxLength": 11
     },
     "storageSKU": {
