@@ -95,7 +95,8 @@
           "templateLink": {
             "uri":"https://raw.githubusercontent.com/boikoworking/IaC1/main/linked/storage_account.json",
             "contentVersion":"1.0.0.0"
-              }
+              },
+            "parametersLink": "https://raw.githubusercontent.com/boikoworking/IaC1/main/parametrs.json"
             }
           },
            {
@@ -107,7 +108,8 @@
           "templateLink": {
             "uri":"https://raw.githubusercontent.com/boikoworking/IaC1/main/linked/virtual_network.json",
             "contentVersion":"1.0.0.0"
-              }
+              },
+            "parametersLink": "https://raw.githubusercontent.com/boikoworking/IaC1/main/parametrs.json"
             }
           }
     ],
