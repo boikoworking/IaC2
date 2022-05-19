@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
       "vnetName": {
-          "value": "VVnet1"
+          "value": "VVnet"
       },
       "vnetAddressPrefix": {
           "value": "12.0.0.0/24"
